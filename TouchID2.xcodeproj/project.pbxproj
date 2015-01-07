@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A91C806C1A5085980055E57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C806B1A5085980055E57A /* AppDelegate.swift */; };
-		A91C806E1A5085980055E57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C806D1A5085980055E57A /* ViewController.swift */; };
+		A91C806E1A5085980055E57A /* touchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C806D1A5085980055E57A /* touchIDViewController.swift */; };
 		A91C80711A5085980055E57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91C806F1A5085980055E57A /* Main.storyboard */; };
 		A91C80731A5085980055E57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91C80721A5085980055E57A /* Images.xcassets */; };
 		A91C80761A5085980055E57A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91C80741A5085980055E57A /* LaunchScreen.xib */; };
 		A91C80821A5085980055E57A /* TouchID2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C80811A5085980055E57A /* TouchID2Tests.swift */; };
+		A91C808C1A5089270055E57A /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91C808B1A5089270055E57A /* LocalAuthentication.framework */; };
+		A91C808E1A508E230055E57A /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C808D1A508E230055E57A /* secondViewController.swift */; };
+		A92AD01C1A574A97001249B9 /* eat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A92AD01B1A574A97001249B9 /* eat@3x.png */; };
+		A92AD01E1A583F5C001249B9 /* eatmeet2.png in Resources */ = {isa = PBXBuildFile; fileRef = A92AD01D1A583F5C001249B9 /* eatmeet2.png */; };
+		A92AD0201A5843F3001249B9 /* eatmeat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A92AD01F1A5843F3001249B9 /* eatmeat@3x.png */; };
+		A95D09881A54350D00C45EFF /* setPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D09871A54350D00C45EFF /* setPasswordViewController.swift */; };
+		A95D098A1A5463D700C45EFF /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D09891A5463D700C45EFF /* CheckViewController.swift */; };
+		A95D098C1A557F4500C45EFF /* gear-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D098B1A557F4500C45EFF /* gear-outline.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +37,21 @@
 		A91C80661A5085980055E57A /* TouchID2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchID2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C806A1A5085980055E57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A91C806B1A5085980055E57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A91C806D1A5085980055E57A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A91C806D1A5085980055E57A /* touchIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchIDViewController.swift; sourceTree = "<group>"; };
 		A91C80701A5085980055E57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A91C80721A5085980055E57A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A91C80751A5085980055E57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A91C807B1A5085980055E57A /* TouchID2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchID2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C80801A5085980055E57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A91C80811A5085980055E57A /* TouchID2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchID2Tests.swift; sourceTree = "<group>"; };
+		A91C808B1A5089270055E57A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		A91C808D1A508E230055E57A /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		A92AD01B1A574A97001249B9 /* eat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eat@3x.png"; sourceTree = "<group>"; };
+		A92AD01D1A583F5C001249B9 /* eatmeet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eatmeet2.png; sourceTree = "<group>"; };
+		A92AD01F1A5843F3001249B9 /* eatmeat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eatmeat@3x.png"; sourceTree = "<group>"; };
+		A95D09871A54350D00C45EFF /* setPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setPasswordViewController.swift; sourceTree = "<group>"; };
+		A95D09891A5463D700C45EFF /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		A95D098B1A557F4500C45EFF /* gear-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-outline.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91C808C1A5089270055E57A /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +76,14 @@
 		A91C805D1A5085980055E57A = {
 			isa = PBXGroup;
 			children = (
+				A91C808B1A5089270055E57A /* LocalAuthentication.framework */,
 				A91C80681A5085980055E57A /* TouchID2 */,
 				A91C807E1A5085980055E57A /* TouchID2Tests */,
 				A91C80671A5085980055E57A /* Products */,
+				A95D098B1A557F4500C45EFF /* gear-outline.png */,
+				A92AD01B1A574A97001249B9 /* eat@3x.png */,
+				A92AD01D1A583F5C001249B9 /* eatmeet2.png */,
+				A92AD01F1A5843F3001249B9 /* eatmeat@3x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				A91C806B1A5085980055E57A /* AppDelegate.swift */,
-				A91C806D1A5085980055E57A /* ViewController.swift */,
+				A91C806D1A5085980055E57A /* touchIDViewController.swift */,
 				A91C806F1A5085980055E57A /* Main.storyboard */,
+				A95D09891A5463D700C45EFF /* CheckViewController.swift */,
+				A95D09871A54350D00C45EFF /* setPasswordViewController.swift */,
+				A91C808D1A508E230055E57A /* secondViewController.swift */,
 				A91C80721A5085980055E57A /* Images.xcassets */,
 				A91C80741A5085980055E57A /* LaunchScreen.xib */,
 				A91C80691A5085980055E57A /* Supporting Files */,
@@ -192,9 +217,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92AD01E1A583F5C001249B9 /* eatmeet2.png in Resources */,
 				A91C80711A5085980055E57A /* Main.storyboard in Resources */,
 				A91C80761A5085980055E57A /* LaunchScreen.xib in Resources */,
 				A91C80731A5085980055E57A /* Images.xcassets in Resources */,
+				A92AD01C1A574A97001249B9 /* eat@3x.png in Resources */,
+				A92AD0201A5843F3001249B9 /* eatmeat@3x.png in Resources */,
+				A95D098C1A557F4500C45EFF /* gear-outline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91C806E1A5085980055E57A /* ViewController.swift in Sources */,
+				A95D09881A54350D00C45EFF /* setPasswordViewController.swift in Sources */,
+				A91C806E1A5085980055E57A /* touchIDViewController.swift in Sources */,
+				A91C808E1A508E230055E57A /* secondViewController.swift in Sources */,
+				A95D098A1A5463D700C45EFF /* CheckViewController.swift in Sources */,
 				A91C806C1A5085980055E57A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +439,7 @@
 				A91C80871A5085980055E57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A91C80881A5085980055E57A /* Build configuration list for PBXNativeTarget "TouchID2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +448,7 @@
 				A91C808A1A5085980055E57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
